@@ -1,0 +1,75 @@
+/* CSS placed here will be applied to all skins */
+
+blockquote#locke-quote {
+	margin: 0;
+	padding: 0;
+	width: 270px;
+	line-height: 1em;
+	color: #555;
+	background: #eee url('../images/top.gif') no-repeat top left;
+	font-family: georgia, serif;
+	font-size: 150%;
+	text-align: center;
+	letter-spacing: -1px;
+}
+
+#quote {
+	margin: 0 10px 0 0;
+	padding: 20px 20px 10px 20px;
+	background: url(../images/end_quote.gif) no-repeat right bottom;
+}
+
+#author {
+	/* margin: 0 10px 0 0; */
+	padding: 0 0 10px 0;
+	color: #999;
+	background: url(../images/bottom.gif) no-repeat left bottom;
+	font-size: 60%;
+}
+
+.brown {
+    background-color: #FFCE9D;
+}
+
+.silver {
+    background-color: silver;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+blockquote.yellow {
+    padding: 3px;
+}
+
+.smaller {
+    font-size: smaller;
+}
+
+.center {
+	text-align: center;
+}
+
+blockquote.insert {
+    padding: 3px;
+    background-color: yellow;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+blockquote.insert2 {
+    padding: 3px;
+    background-color: yellow;
+    font-weight: bold;
+}
+
+a.glossaryEntryLink {
+    color: green;
+    text-decoration: none;
+}
+
+a.glossaryEntryLink:hover {
+    text-decoration: underline;
+}

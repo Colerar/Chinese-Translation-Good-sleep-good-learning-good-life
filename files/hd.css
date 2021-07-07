@@ -1,0 +1,128 @@
+.navbar {
+	margin-bottom: 0;
+}
+
+.navbar-brand {
+	padding: 10px 15px !important;
+}
+
+.navbar	.brand {
+	padding-left: 35px;
+	font-family: Times New Roman;
+	font-size: 17px;
+	-webkit-transform:scale(1,2); /* Safari and Chrome */
+	-moz-transform:scale(1,2); /* Firefox */
+	-ms-transform:scale(1,2); /* IE 9 */
+	-o-transform:scale(1,2); /* Opera */
+	transform:scale(1,2); /* W3C */
+}
+
+input[type=text] .span2 {
+	height: auto !important;
+}
+
+.title {
+	position: relative;
+	color: #fff;
+	text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
+	-webkit-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+	-moz-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+	box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+}
+
+.title-articles {
+	background: #FFC90D;
+	background: -moz-linear-gradient(45deg, #FFC90D 0%, #FFDF73 100%);
+	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #FFC90D), color-stop(100%, #FFDF73));
+	background: -webkit-linear-gradient(45deg, #FFC90D 0%, #FFDF73 100%);
+	background: -o-linear-gradient(45deg, #FFC90D 0%, #FFDF73 100%);
+	background: -ms-linear-gradient(45deg, #FFC90D 0%, #FFDF73 100%);
+	background: linear-gradient(45deg, #FFC90D 0%, #FFDF73 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFC90D', endColorstr='#FFDF73', GradientType=1);
+}
+
+.title-company {
+	background: #B97A57;
+	background: -moz-linear-gradient(45deg, #B97A57 0%, #D6B39F 100%);
+	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #B97A57), color-stop(100%, #D6B39F));
+	background: -webkit-linear-gradient(45deg, #B97A57 0%, #D6B39F 100%);
+	background: -o-linear-gradient(45deg, #B97A57 0%, #D6B39F 100%);
+	background: -ms-linear-gradient(45deg, #B97A57 0%, #D6B39F 100%);
+	background: linear-gradient(45deg, #B97A57 0%, #D6B39F 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#B97A57', endColorstr='#D6B39F', GradientType=1);
+}
+
+.title-help {
+	background: #9AD9EA;
+	background: -moz-linear-gradient(45deg, #9AD9EA 0%, #EEF8FB 100%);
+	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #9AD9EA), color-stop(100%, #EEF8FB));
+	background: -webkit-linear-gradient(45deg, #9AD9EA 0%, #EEF8FB 100%);
+	background: -o-linear-gradient(45deg, #9AD9EA 0%, #EEF8FB 100%);
+	background: -ms-linear-gradient(45deg, #9AD9EA 0%, #EEF8FB 100%);
+	background: linear-gradient(45deg, #9AD9EA 0%, #EEF8FB 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9AD9EA', endColorstr='#EEF8FB', GradientType=1);
+}
+
+.title-faq {
+	background: #00A3E8;
+	background: -moz-linear-gradient(45deg, #00A3E8 0%, #4FCAFE 100%);
+	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #00A3E8), color-stop(100%, #4FCAFE));
+	background: -webkit-linear-gradient(45deg, #00A3E8 0%, #4FCAFE 100%);
+	background: -o-linear-gradient(45deg, #00A3E8 0%, #4FCAFE 100%);
+	background: -ms-linear-gradient(45deg, #00A3E8 0%, #4FCAFE 100%);
+	background: linear-gradient(45deg, #00A3E8 0%, #4FCAFE 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00A3E8', endColorstr='#4FCAFE', GradientType=1);
+}
+
+.title h1 {
+	margin: 0;
+	padding: 15px;
+	line-height: 1;
+	color: #FFF;
+	background-color: transparent;
+	font-weight: 200;
+	font-size: 60px;
+	letter-spacing: -1px;
+}
+
+#globalWrapper {
+	font-size: 100% !important;
+}
+
+.logo > a {
+	display: inline-block;
+	width: 84px;
+	height: 20px;
+}
+
+.logo img {
+	border: 0px;
+	position: relative;
+	top: -5px;
+}
+
+.byline {
+	border-top: 1px solid #fff;
+}
+
+.articles .byline {
+	border-bottom: 1px solid #FFDF73;
+	background-color: #FFF6D9;
+}
+
+.company .byline {
+	border-bottom: 1px solid #D6B39F;
+	background-color: #F5EBE6;
+}
+
+.title:after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: url('../img/bs-docs-masthead-pattern.png') repeat center center;
+	opacity: .4;
+}

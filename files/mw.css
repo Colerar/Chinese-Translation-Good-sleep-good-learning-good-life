@@ -1,0 +1,2505 @@
+@media print{  a.stub,a.new{color:#ba0000;text-decoration:none}
+@media screen{  abbr,acronym,.explain{border-bottom:1px dotted black;cursor:help}
+@media screen{  html,body{height:100%;margin:0;padding:0;font-family:sans-serif;font-size:1em}
+
+#toc {
+    border: 1px solid #aaaaaa;
+    background-color: #f9f9f9;
+    padding: 5px;
+}
+
+.tocindent {
+    margin-left: 2em;
+}
+
+.tocline {
+    margin-bottom: 0px;
+}
+
+div.floatright {
+    float: right;
+    clear: right;
+    position: relative;
+    margin: 0.5em 0 0.8em 1.4em;
+}
+
+div.floatright p {
+    font-style: italic;
+}
+
+div.floatleft {
+    float: left;
+    clear: left;
+    position: relative;
+    margin: 0.5em 1.4em 0.8em 0;
+}
+
+div.floatleft p {
+    font-style: italic;
+}
+
+div.center {
+    text-align: center;
+}
+
+div.thumb {
+    border: none;
+    width: auto;
+    margin-top: 0.5em;
+    margin-bottom: 0.8em;
+    background-color: transparent;
+}
+
+div.thumbinner {
+    border: 1px solid #cccccc;
+    padding: 3px !important;
+    background-color: White;
+    font-size: 94%;
+    text-align: center;
+    overflow: hidden;
+}
+
+html .thumbimage {
+    border: 1px solid #cccccc;
+}
+
+html .thumbcaption {
+    border: none;
+    text-align: left;
+    line-height: 1.4em;
+    padding: 3px !important;
+    font-size: 94%;
+}
+
+div.magnify {
+    display: none;
+}
+
+div.tright {
+    float: right;
+    clear: right;
+    margin: 0.5em 0 0.8em 1.4em;
+}
+
+div.tleft {
+    float: left;
+    clear: left;
+    margin: 0.5em 1.4em 0.8em 0;
+}
+
+img.thumbborder {
+    border: 1px solid #dddddd;
+}
+
+table.rimage {
+    float: right;
+    width: 1pt;
+    position: relative;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+body {
+    background: White;
+    color: Black;
+    margin: 0;
+    padding: 0;
+}
+
+.noprint,div#jump-to-nav,div.top,div#column-one,#colophon,.editsection,.toctoggle,.tochidden,div#f-poweredbyico,div#f-copyrightico,li#viewcount,li#about,li#disclaimer,li#privacy,#footer-places,#mw-hidden-catlinks {
+    display: none;
+}
+
+ul {
+    list-style-type: square;
+}
+
+#content {
+    background: none;
+    border: none ! important;
+    padding: 0 ! important;
+    margin: 0 ! important;
+}
+
+#footer {
+    background: white;
+    color: black;
+    border-top: 1px solid black;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: bold;
+}
+
+p,.documentDescription {
+    margin: 1em 0 ! important;
+    line-height: 1.2em;
+}
+
+.tocindent p {
+    margin: 0 0 0 0 ! important;
+}
+
+pre {
+    border: 1pt dashed black;
+    white-space: pre;
+    font-size: 8pt;
+    overflow: auto;
+    padding: 1em 0;
+    background: white;
+    color: black;
+}
+
+table.listing,table.listing td {
+    border: 1pt solid black;
+    border-collapse: collapse;
+}
+
+a {
+    color: Black !important;
+    background: none !important;
+    padding: 0 !important;
+}
+
+a:link,a:visited {
+    color: #520;
+    background: transparent;
+    text-decoration: underline;
+}
+
+#content a.external.text:after,#content a.external.autonumber:after {
+    content: " (" attr(href) ") ";
+}
+
+#globalWrapper {
+    width: 100% !important;
+    min-width: 0 !important;
+}
+
+#content {
+    background: white;
+    color: black;
+}
+
+#column-content {
+    margin: 0 !important;
+}
+
+#column-content #content {
+    padding: 1em;
+    margin: 0 !important;
+}
+
+a,a.external,a.new,a.stub {
+    color: black ! important;
+    text-decoration: none ! important;
+}
+
+a,a.external,a.new,a.stub {
+    color: inherit ! important;
+    text-decoration: inherit ! important;
+}
+
+img {
+    border: none;
+    vertical-align: middle;
+}
+
+span.texhtml {
+    font-family: serif;
+}
+
+#siteNotice {
+    display: none;
+}
+
+li.gallerybox {
+    vertical-align: top;
+    background-color: #f9f9f9;
+    border: solid 2px white;
+    display: -moz-inline-box;
+    display: inline-block;
+}
+
+ul.gallery,li.gallerybox {
+    zoom: 1;
+    *display: inline;
+}
+
+ul.gallery {
+    margin: 2px;
+    padding: 2px;
+    display: block;
+}
+
+li.gallerycaption {
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    word-wrap: break-word;
+}
+
+li.gallerybox div.thumb {
+    text-align: center;
+    border: 1px solid #ccc;
+    margin: 2px;
+}
+
+div.gallerytext {
+    overflow: hidden;
+    font-size: 94%;
+    padding: 2px 4px;
+    word-wrap: break-word;
+}
+
+table.diff {
+    background: white;
+}
+
+td.diff-otitle {
+    background: #ffffff;
+}
+
+td.diff-ntitle {
+    background: #ffffff;
+}
+
+td.diff-addedline {
+    background: #ccffcc;
+    font-size: smaller;
+    border: solid 2px black;
+}
+
+td.diff-deletedline {
+    background: #ffffaa;
+    font-size: smaller;
+    border: dotted 2px black;
+}
+
+td.diff-context {
+    background: #eeeeee;
+    font-size: smaller;
+}
+
+.diffchange {
+    color: silver;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+table.wikitable {
+    margin: 1em 1em 1em 0;
+    border: 1px #aaa solid;
+    background: white;
+    border-collapse: collapse;
+}
+
+.wikitable th,.wikitable td {
+    border: 1px #aaa solid;
+    padding: 0.2em;
+}
+
+.wikitable th {
+    text-align: center;
+    background: white;
+    font-weight: bold;
+}
+
+.wikitable caption {
+    font-weight: bold;
+}
+
+a.sortheader {
+    margin: 0px 0.3em;
+}
+
+.wikitable,.thumb,img {
+    page-break-inside: avoid;
+}
+
+h2,h3,h4,h5,h6,h7 {
+    page-break-after: avoid;
+}
+
+p {
+    widows: 3;
+    orphans: 3;
+}
+
+.mw-plusminus-pos {
+    color: #006400;
+}
+
+.mw-plusminus-neg {
+    color: #8b0000;
+}
+
+.mw-plusminus-null {
+    color: #aaa;
+}
+
+.allpagesredirect,.redirect-in-category,.watchlistredir {
+    font-style: italic;
+}
+
+span.comment {
+    font-style: italic;
+}
+
+span.changedby {
+    font-size: 95%;
+}
+
+.texvc {
+    direction: ltr;
+    unicode-bidi: embed;
+}
+
+img.tex {
+    vertical-align: middle;
+}
+
+span.texhtml {
+    font-family: serif;
+}
+
+#wikiPreview.ontop {
+    margin-bottom: 1em;
+}
+
+#editform,#toolbar,#wpTextbox1 {
+    clear: both;
+}
+
+div#mw-js-message {
+    margin: 1em 5%;
+    padding: 0.5em 2.5%;
+    border: solid 1px #ddd;
+    background-color: #fcfcfc;
+}
+
+.editsection {
+    float: right;
+    margin-left: 5px;
+}
+
+h2#filehistory {
+    clear: both;
+}
+
+table.filehistory th,table.filehistory td {
+    vertical-align: top;
+}
+
+table.filehistory th {
+    text-align: left;
+}
+
+table.filehistory td.mw-imagepage-filesize,table.filehistory th.mw-imagepage-filesize {
+    white-space: nowrap;
+}
+
+table.filehistory td.filehistory-selected {
+    font-weight: bold;
+}
+
+li span.deleted,span.history-deleted {
+    text-decoration: line-through;
+    color: #888;
+    font-style: italic;
+}
+
+.not-patrolled {
+    background-color: #ffa;
+}
+
+.unpatrolled {
+    font-weight: bold;
+    color: red;
+}
+
+div.patrollink {
+    font-size: 75%;
+    text-align: right;
+}
+
+td.mw-label {
+    text-align: right;
+}
+
+td.mw-input {
+    text-align: left;
+}
+
+td.mw-submit {
+    text-align: left;
+}
+
+td.mw-label {
+    vertical-align: top;
+}
+
+.prefsection td.mw-label {
+    width: 20%;
+}
+
+.prefsection table {
+    width: 100%;
+}
+
+td.mw-submit {
+    white-space: nowrap;
+}
+
+table.mw-htmlform-nolabel td.mw-label {
+    width: 0 !important;
+}
+
+tr.mw-htmlform-vertical-label td.mw-label {
+    text-align: left !important;
+}
+
+input#wpSummary {
+    width: 80%;
+}
+
+.thumbcaption {
+    text-align: left;
+}
+
+.magnify {
+    float: right;
+}
+
+.mw-hidden-cats-hidden {
+    display: none;
+}
+
+.catlinks-allhidden {
+    display: none;
+}
+
+p.mw-ipb-conveniencelinks,p.mw-protect-editreasons,p.mw-filedelete-editreasons,p.mw-delete-editreasons,p.mw-revdel-editreasons {
+    font-size: 90%;
+    float: right;
+}
+
+.searchresults {
+}
+
+.searchresults p {
+    margin-left: 0.4em;
+    margin-top: 1em;
+    margin-bottom: 1.2em;
+}
+
+div.searchresult {
+    font-size: 95%;
+    width: 38em;
+}
+
+.mw-search-results {
+    margin-left: 0.4em;
+}
+
+.mw-search-results li {
+    padding-bottom: 1em;
+    list-style: none;
+    list-style-image: none;
+}
+
+.mw-search-results li a {
+    font-size: 108%;
+}
+
+.mw-search-result-data {
+    color: green;
+    font-size: 97%;
+}
+
+.mw-search-formheader {
+    background-color: #f3f3f3;
+    margin-top: 1em;
+    border: 1px solid silver;
+}
+
+.mw-search-formheader div.search-types {
+    float: left;
+    padding-left: 0.25em;
+}
+
+.mw-search-formheader div.search-types ul {
+    margin: 0 !important;
+    padding: 0 !important;
+    list-style: none !important;
+}
+
+.mw-search-formheader div.search-types ul li {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.mw-search-formheader div.search-types ul li a {
+    display: block;
+    padding: 0.5em;
+}
+
+.mw-search-formheader div.search-types ul li.current a {
+    color: #333333;
+    cursor: default;
+}
+
+.mw-search-formheader div.search-types ul li.current a:hover {
+    text-decoration: none;
+}
+
+.mw-search-formheader div.results-info {
+    float: right;
+    padding: 0.5em;
+    padding-right: 0.75em;
+}
+
+.mw-search-formheader div.results-info ul {
+    margin: 0 !important;
+    padding: 0 !important;
+    list-style: none !important;
+}
+
+.mw-search-formheader div.results-info ul li {
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+fieldset#mw-searchoptions {
+    margin: 0;
+    padding-left: 0.75em !important;
+    padding-right: 0.75em !important;
+    padding-bottom: 0.5em !important;
+    padding-top: 0.5em !important;
+    border: none;
+    background-color: #f9f9f9;
+    border: 1px solid silver !important;
+    border-top-width: 0 !important;
+}
+
+fieldset#mw-searchoptions legend {
+    display: none;
+}
+
+fieldset#mw-searchoptions h4 {
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+
+fieldset#mw-searchoptions div#mw-search-togglebox {
+    float: right;
+}
+
+fieldset#mw-searchoptions div#mw-search-togglebox label {
+    margin-right: 0.25em;
+}
+
+fieldset#mw-searchoptions div#mw-search-togglebox input {
+    margin-left: 0.25em;
+}
+
+fieldset#mw-searchoptions table {
+    float: left;
+    margin-right: 3em;
+}
+
+fieldset#mw-searchoptions table td {
+    padding-right: 1em;
+}
+
+fieldset#mw-searchoptions div.divider {
+    clear: both;
+    border-bottom: 1px solid #DDDDDD;
+    padding-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+td#mw-search-menu {
+    padding-left: 6em;
+    font-size: 85%;
+}
+
+div#mw-search-interwiki {
+    float: right;
+    width: 18em;
+    border-style: solid;
+    border-color: #AAAAAA;
+    border-width: 1px;
+    margin-top: 2ex;
+}
+
+div#mw-search-interwiki li {
+    font-size: 95%;
+}
+
+.mw-search-interwiki-more {
+    float: right;
+    font-size: 90%;
+}
+
+div#mw-search-interwiki-caption {
+    text-align: center;
+    font-weight: bold;
+    font-size: 95%;
+}
+
+.mw-search-interwiki-project {
+    font-size: 97%;
+    text-align: left;
+    padding-left: 0.2em;
+    padding-right: 0.15em;
+    padding-bottom: 0.2em;
+    padding-top: 0.15em;
+    background-color: #ececec;
+    border-top: 1px solid #BBBBBB;
+}
+
+span.searchalttitle {
+    font-size: 95%;
+}
+
+div.searchdidyoumean {
+    font-size: 127%;
+    margin-top: 0.8em;
+    color: #c00;
+}
+
+div.searchdidyoumean em {
+    font-weight: bold;
+}
+
+.searchmatch {
+    font-weight: bold;
+}
+
+td#mw-search-togglebox {
+    text-align: right;
+}
+
+table#mw-search-powertable {
+    width: 100%;
+}
+
+form#powersearch {
+    clear: both;
+}
+
+.mw-userrights-disabled {
+    color: #888;
+}
+
+table.mw-userrights-groups * td,table.mw-userrights-groups * th {
+    padding-right: 1.5em;
+}
+
+.os-suggest {
+    overflow: auto;
+    overflow-x: hidden;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    background-color: white;
+    background-color: Window;
+    border-style: solid;
+    border-color: #AAAAAA;
+    border-width: 1px;
+    z-index: 99;
+    font-size: 95%;
+}
+
+table.os-suggest-results {
+    font-size: 95%;
+    cursor: pointer;
+    border: 0;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.os-suggest-result,.os-suggest-result-hl {
+    white-space: nowrap;
+    background-color: white;
+    background-color: Window;
+    color: black;
+    color: WindowText;
+    padding: 2px;
+}
+
+.os-suggest-result-hl,.os-suggest-result-hl-webkit {
+    background-color: #4C59A6;
+    color: white;
+}
+
+.os-suggest-result-hl {
+    background-color: Highlight;
+    color: HighlightText;
+}
+
+.os-suggest-toggle {
+    position: relative;
+    left: 1ex;
+    font-size: 65%;
+}
+
+.os-suggest-toggle-def {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 65%;
+    visibility: hidden;
+}
+
+.autocomment {
+    color: gray;
+}
+
+#pagehistory .history-user {
+    margin-left: 0.4em;
+    margin-right: 0.2em;
+}
+
+#pagehistory span.minor {
+    font-weight: bold;
+}
+
+#pagehistory li {
+    border: 1px solid white;
+}
+
+#pagehistory li.selected {
+    background-color: #f9f9f9;
+    border: 1px dashed #aaa;
+}
+
+.newpage,.minor,.bot {
+    font-weight: bold;
+}
+
+.mw-uctop {
+    font-weight: bold;
+}
+
+table.mw-listgrouprights-table tr {
+    vertical-align: top;
+}
+
+.listgrouprights-revoked {
+    text-decoration: line-through;
+}
+
+td.mw-statistics-numbers {
+    text-align: right;
+}
+
+h4.mw-specialpagesgroup {
+    background-color: #dcdcdc;
+    padding: 2px;
+    margin: .3em 0em 0em 0em;
+}
+
+.mw-specialpagerestricted {
+    font-weight: bold;
+}
+
+#shared-image-dup,#shared-image-conflict {
+    font-style: italic;
+}
+
+table.mw-emailuser-table {
+    width: 98%;
+}
+
+td#mw-emailuser-sender,td#mw-emailuser-recipient {
+    font-weight: bold;
+}
+
+table.mw-allpages-table-form,table.mw-allpages-table-chunk {
+    width: 100%;
+}
+
+td.mw-allpages-alphaindexline {
+    text-align: right;
+}
+
+td.mw-allpages-nav,p.mw-allpages-nav {
+    text-align: right;
+    font-size: smaller;
+    margin-bottom: 1em;
+}
+
+table.mw-allpages-table-form tr {
+    vertical-align: top;
+}
+
+table#mw-prefixindex-list-table,table#mw-prefixindex-nav-table {
+    width: 98%;
+}
+
+td#mw-prefixindex-nav-form {
+    font-size: smaller;
+    margin-bottom: 1em;
+    text-align: right;
+    vertical-align: top;
+}
+
+div.mw-warning-with-logexcerpt {
+    padding: 3px;
+    margin-bottom: 3px;
+    border: 2px solid #2F6FAB;
+    clear: both;
+}
+
+div.mw-warning-with-logexcerpt ul li {
+    font-size: 90%;
+}
+
+span.mw-revdelundel-link,strong.mw-revdelundel-link {
+    font-size: 90%;
+}
+
+span.mw-revdelundel-hidden,input.mw-revdelundel-hidden {
+    visibility: hidden;
+}
+
+td.mw-revdel-checkbox,th.mw-revdel-checkbox {
+    padding-right: 10px;
+    text-align: center;
+}
+
+a.feedlink {
+    background: url(data:image/png;
+    background: url(http://articles.supermemo.org/skins/common/images/feed-icon.png?2011-06-24T09:43:20Z) center left no-repeat!ie;
+    padding-left: 16px;
+}
+
+.plainlinks a {
+    background: none !important;
+    padding: 0 !important;
+}
+
+table.wikitable {
+    margin: 1em 1em 1em 0;
+    background: #f9f9f9;
+    border: 1px #aaa solid;
+    border-collapse: collapse;
+    color: black;
+}
+
+.wikitable th,.wikitable td {
+    border: 1px #aaa solid;
+    padding: 0.2em;
+}
+
+.wikitable th {
+    background: #f2f2f2;
+    text-align: center;
+}
+
+.wikitable caption {
+    font-weight: bold;
+}
+
+table.collapsed tr.collapsable {
+    display: none;
+}
+
+.success {
+    color: green;
+    font-size: larger;
+}
+
+.error {
+    color: red;
+    font-size: larger;
+}
+
+.errorbox,.successbox {
+    font-size: larger;
+    border: 2px solid;
+    padding: .5em 1em;
+    float: left;
+    margin-bottom: 2em;
+    color: #000;
+}
+
+.errorbox {
+    border-color: red;
+    background-color: #fff2f2;
+}
+
+.successbox {
+    border-color: green;
+    background-color: #dfd;
+}
+
+.errorbox h2,.successbox h2 {
+    font-size: 1em;
+    font-weight: bold;
+    display: inline;
+    margin: 0 .5em 0 0;
+    border: none;
+}
+
+.previewnote {
+    color: #c00;
+    margin-bottom: 1em;
+}
+
+.previewnote p {
+    text-indent: 3em;
+    margin: 0.8em 0;
+}
+
+.visualClear {
+    clear: both;
+}
+
+#mw_trackbacks {
+    border: solid 1px #bbbbff;
+    background-color: #eeeeff;
+    padding: 0.2em;
+}
+
+.TablePager {
+    min-width: 80%;
+    border-collapse: collapse;
+}
+
+.TablePager_nav a {
+    text-decoration: none;
+}
+
+.TablePager,.TablePager td,.TablePager th {
+    border: 1px solid #aaaaaa;
+    padding: 0 0.15em 0 0.15em;
+}
+
+.TablePager th {
+    background-color: #eeeeff;
+}
+
+.TablePager td {
+    background-color: #ffffff;
+}
+
+.TablePager tr:hover td {
+    background-color: #eeeeff;
+}
+
+.imagelist td,.imagelist th {
+    white-space: nowrap;
+}
+
+.imagelist .TablePager_col_links {
+    background-color: #eeeeff;
+}
+
+.imagelist .TablePager_col_img_description {
+    white-space: normal;
+}
+
+.imagelist th.TablePager_sort {
+    background-color: #ccccff;
+}
+
+#mw-allmessagestable .allmessages-customised td.am_default {
+    background-color: #fcffc4;
+}
+
+#mw-allmessagestable tr.allmessages-customised:hover td.am_default {
+    background-color: #faff90;
+}
+
+#mw-allmessagestable td.am_actual {
+    background-color: #e2ffe2;
+}
+
+#mw-allmessagestable tr.allmessages-customised:hover + tr.allmessages-customised td.am_actual {
+    background-color: #b1ffb1;
+}
+
+ul#filetoc {
+    text-align: center;
+    border: 1px solid #aaaaaa;
+    background-color: #f9f9f9;
+    padding: 5px;
+    font-size: 95%;
+    margin-bottom: 0.5em;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#filetoc li {
+    display: inline;
+    list-style-type: none;
+    padding-right: 2em;
+}
+
+table.mw_metadata {
+    font-size: 0.8em;
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+    width: 300px;
+}
+
+table.mw_metadata caption {
+    font-weight: bold;
+}
+
+table.mw_metadata th {
+    font-weight: normal;
+}
+
+table.mw_metadata td {
+    padding: 0.1em;
+}
+
+table.mw_metadata {
+    border: none;
+    border-collapse: collapse;
+}
+
+table.mw_metadata td,table.mw_metadata th {
+    text-align: center;
+    border: 1px solid #aaaaaa;
+    padding-left: 0.1em;
+    padding-right: 0.1em;
+}
+
+table.mw_metadata th {
+    background-color: #f9f9f9;
+}
+
+table.mw_metadata td {
+    background-color: #fcfcfc;
+}
+
+li.gallerybox {
+    vertical-align: top;
+    background-color: #f9f9f9;
+    border: solid 2px white;
+    display: -moz-inline-box;
+}
+
+ul.gallery,li.gallerybox {
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+}
+
+ul.gallery {
+    margin: 2px;
+    padding: 2px;
+    display: block;
+}
+
+li.gallerycaption {
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    word-wrap: break-word;
+}
+
+li.gallerybox div.thumb {
+    text-align: center;
+    border: 1px solid #ccc;
+    margin: 2px;
+}
+
+div.gallerytext {
+    overflow: hidden;
+    font-size: 94%;
+    padding: 2px 4px;
+    word-wrap: break-word;
+}
+
+table.mw-enhanced-rc {
+    background: none;
+    border: 0;
+    border-spacing: 0;
+}
+
+td.mw-enhanced-rc {
+    white-space: nowrap;
+    padding: 0;
+    vertical-align: top;
+    font-family: monospace;
+}
+
+#mw-addcategory-prompt {
+    display: inline;
+    margin-left: 1em;
+}
+
+#mw-addcategory-prompt input {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.mw-remove-category {
+    padding: 8px;
+    background-image: url(data:image/png;
+    background-image: url(http://articles.supermemo.org/skins/common/images/remove.png?2011-06-24T09:45:00Z)!ie;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.mw-ajax-addcategory {
+    padding-left: 20px;
+    background-image: url(data:image/png;
+    background-image: url(http://articles.supermemo.org/skins/common/images/add.png?2011-06-24T09:43:20Z)!ie;
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+
+.mw-ajax-loader {
+    background-image: url(data:image/gif;
+    background-image: url(http://articles.supermemo.org/skins/common/images/ajax-loader.gif?2011-06-24T09:43:20Z)!ie;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 16px;
+    position: relative;
+    top: -16px;
+}
+
+.mw-small-spinner {
+    padding: 10px !important;
+    margin-right: 0.6em;
+    background-image: url(data:image/gif;
+    background-image: url(http://articles.supermemo.org/skins/common/images/spinner.gif?2011-06-24T09:45:00Z)!ie;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+a.sortheader {
+    margin: 0 0.3em;
+}
+
+ol:lang(bcc) li,ol:lang(bqi) li,ol:lang(fa) li,ol:lang(glk) li,ol:lang(kk-arab) li,ol:lang(mzn) li {
+    list-style-type: -moz-persian;
+    list-style-type: persian;
+}
+
+ol:lang(ckb) li {
+    list-style-type: -moz-arabic-indic;
+    list-style-type: arabic-indic;
+}
+
+ol:lang(bn) li {
+    list-style-type: -moz-bengali;
+    list-style-type: bengali;
+}
+
+.mw-help-field-hint {
+    display: none;
+    padding: 0px;
+    padding-left: 15px;
+    margin-left: 2px;
+    margin-bottom: -8px;
+    background-image: url(data:image/gif;
+    background-image: url(http://articles.supermemo.org/skins/common/images/help-question.gif?2011-06-24T09:43:20Z)!ie;
+    background-position: left center;
+    background-repeat: no-repeat;
+    color: #0645ad;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: .8em;
+}
+
+.mw-help-field-hint:hover {
+    background-image: url(data:image/gif;
+    background-image: url(http://articles.supermemo.org/skins/common/images/help-question-hover.gif?2011-06-24T09:43:20Z)!ie;
+}
+
+.mw-help-field-data {
+    display: block;
+    background-color: #d6f3ff;
+    padding: 5px 8px 4px 8px;
+    border: 1px solid #5dc9f4;
+    margin-left: 20px;
+}
+
+.tipsy {
+    padding: 5px 5px 10px;
+    font-size: 12px;
+    position: absolute;
+    z-index: 100000;
+    overflow: visible;
+}
+
+.tipsy-inner {
+    padding: 5px 8px 4px 8px;
+    background-color: #d6f3ff;
+    color: black;
+    border: 1px solid #5dc9f4;
+    max-width: 300px;
+    text-align: left;
+}
+
+.tipsy-arrow {
+    position: absolute;
+    background: url(data:image/gif;
+    background: url(http://articles.supermemo.org/skins/common/images/tipsy-arrow.gif?2011-06-24T09:45:00Z) no-repeat top left!ie;
+    width: 13px;
+    height: 13px;
+}
+
+.tipsy-se .tipsy-arrow {
+    bottom: -2px;
+    right: 10px;
+    background-position: 0% 100%;
+}
+
+body {
+    background-color: #f3f3f3;
+    background-image: url(data:image/png;
+    background-image: url(http://articles.supermemo.org/skins/vector/images/page-base.png?2011-06-24T09:46:40Z)!ie;
+}
+
+div#content {
+    margin-left: 10em;
+    padding: 1em;
+    background-image: url(data:image/png;
+    background-image: url(http://articles.supermemo.org/skins/vector/images/border.png?2011-06-24T09:46:40Z)!ie;
+    background-position: top left;
+    background-repeat: repeat-y;
+    background-color: white;
+    color: black;
+    direction: ltr;
+}
+
+#mw-page-base {
+    height: 5em;
+    background-color: white;
+    background-image: url(data:image/png;
+    background-image: url(http://articles.supermemo.org/skins/vector/images/page-fade.png?2011-06-24T09:46:40Z)!ie;
+    background-position: bottom left;
+    background-repeat: repeat-x;
+}
+
+#mw-head-base {
+    margin-top: -5em;
+    margin-left: 10em;
+    height: 5em;
+    background-image: url(data:image/png;
+    background-image: url(http://articles.supermemo.org/skins/vector/images/border.png?2011-06-24T09:46:40Z)!ie;
+    background-position: bottom left;
+    background-repeat: repeat-x;
+}
+
+div#mw-head {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+}
+
+div#mw-head h5 {
+    margin: 0;
+    padding: 0;
+}
+
+div.emptyPortlet {
+    display: none;
+}
+
+#p-personal {
+    position: absolute;
+    top: 0;
+    right: 0.75em;
+}
+
+#p-personal h5 {
+    display: none;
+}
+
+#p-personal ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 10em;
+}
+
+#p-personal li {
+    line-height: 1.125em;
+    float: left;
+}
+
+#p-personal li {
+    margin-left: 0.75em;
+    margin-top: 0.5em;
+    font-size: 0.75em;
+    white-space: nowrap;
+}
+
+#left-navigation {
+    position: absolute;
+    left: 10em;
+    top: 2.5em;
+}
+
+#right-navigation {
+    float: right;
+    margin-top: 2.5em;
+}
+
+div.vectorTabs h5,div.vectorMenu h5 span {
+    display: none;
+}
+
+div.vectorTabs {
+    float: left;
+    height: 2.5em;
+}
+
+div.vectorTabs {
+    background-image: url(data:image/png;
+    background-image: url(http://articles.supermemo.org/skins/vector/images/tab-break.png?2011-06-24T09:46:40Z)!ie;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    padding-left: 1px;
+}
+
+div.vectorTabs ul {
+    float: left;
+}
+
+div.vectorTabs ul {
+    height: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+div.vectorTabs ul li {
+    float: left;
+}
+
+div.vectorTabs ul li {
+    line-height: 1.125em;
+    display: inline-block;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+    background-image: url(data:image/png;
+    background-image: url(http://articles.supermemo.org/skins/vector/images/tab-normal-fade.png?2011-06-24T09:46:40Z)!ie;
+    background-position: bottom left;
+    background-repeat: repeat-x;
+    white-space: nowrap;
+}
+
+div.vectorTabs ul > li {
+    display: block;
+}
+
+div.vectorTabs li.selected {
+    background-image: url(data:image/png;
+    background-image: url(http://articles.supermemo.org/skins/vector/images/tab-current-fade.png?2011-06-24T09:46:40Z)!ie;
+}
+
+div.vectorTabs li a {
+    display: inline-block;
+    height: 1.9em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    background-image: url(data:image/png;
+    background-image: url(http://articles.supermemo.org/skins/vector/images/tab-break.png?2011-06-24T09:46:40Z)!ie;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    color: #0645ad;
+    cursor: pointer;
+    font-size: 0.8em;
+}
+
+div.vectorTabs li > a {
+    display: block;
+}
+
+div.vectorTabs span a {
+    display: inline-block;
+    padding-top: 1.25em;
+}
+
+div.vectorTabs span > a {
+    float: left;
+    display: block;
+}
+
+div.vectorTabs li.selected a,div.vectorTabs li.selected a:visited {
+    color: #333333;
+    text-decoration: none;
+}
+
+div.vectorTabs li.new a,div.vectorTabs li.new a:visited {
+    color: #a55858;
+}
+
+div.vectorMenu {
+    direction: ltr;
+    float: left;
+    background-image: url(data:image/png;
+    background-image: url(http://articles.supermemo.org/skins/vector/images/arrow-down-icon.png?2011-06-24T09:46:40Z)!ie;
+    background-position: 100% 60%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+body.rtl div.vectorMenu {
+    direction: rtl;
+}
+
+div#mw-head div.vectorMenu h5 {
+    float: left;
+    background-image: url(data:image/png;
+    background-image: url(http://articles.supermemo.org/skins/vector/images/tab-break.png?2011-06-24T09:46:40Z)!ie;
+    background-repeat: no-repeat;
+}
+
+div#mw-head div.vectorMenu h5 {
+    background-position: bottom left;
+    margin-left: -1px;
+}
+
+div#mw-head div.vectorMenu > h5 {
+    background-image: none;
+}
+
+div#mw-head div.vectorMenu h4 {
+    display: inline-block;
+    float: left;
+    font-size: 0.8em;
+    padding-left: 0.5em;
+    padding-top: 1.375em;
+    font-weight: normal;
+    border: none;
+}
+
+div.vectorMenu h5 a {
+    display: inline-block;
+    width: 24px;
+    height: 2.5em;
+    text-decoration: none;
+    background-image: url(data:image/png;
+    background-image: url(http://articles.supermemo.org/skins/vector/images/tab-break.png?2011-06-24T09:46:40Z)!ie;
+    background-repeat: no-repeat;
+}
+
+div.vectorMenu h5 a {
+    background-position: bottom right;
+}
+
+div.vectorMenu h5 > a {
+    display: block;
+}
+
+div.vectorMenu div.menu {
+    position: relative;
+    display: none;
+    clear: both;
+    text-align: left;
+}
+
+body.rtl div.vectorMenu div.menu {
+    margin-left: 24px;
+}
+
+body.rtl div.vectorMenu > div.menu {
+    margin-left: auto;
+}
+
+body.rtl div.vectorMenu > div.menu,x:-moz-any-link {
+    margin-left: 23px;
+}
+
+div.vectorMenu:hover div.menu {
+    display: block;
+}
+
+div.vectorMenu ul {
+    position: absolute;
+    background-color: white;
+    border: solid 1px silver;
+    border-top-width: 0;
+    list-style: none;
+    list-style-image: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-left: -1px;
+    text-align: left;
+}
+
+div.vectorMenu ul,x:-moz-any-link {
+    min-width: 5em;
+}
+
+div.vectorMenu ul,x:-moz-any-link,x:default {
+    min-width: 0;
+}
+
+div.vectorMenu li {
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    line-height: 1em;
+}
+
+div.vectorMenu li a {
+    display: inline-block;
+    padding: 0.5em;
+    white-space: nowrap;
+    color: #0645ad;
+    cursor: pointer;
+    font-size: 0.8em;
+}
+
+div.vectorMenu li > a {
+    display: block;
+}
+
+div.vectorMenu li.selected a,div.vectorMenu li.selected a:visited {
+    color: #333333;
+    text-decoration: none;
+}
+
+#p-search h5 {
+    display: none;
+}
+
+#p-search {
+    float: left;
+}
+
+#p-search {
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+}
+
+#p-search form,#p-search input {
+    margin: 0;
+    margin-top: 0.4em;
+}
+
+div#simpleSearch {
+    display: block;
+    width: 14em;
+    height: 1.4em;
+    margin-top: 0.65em;
+    position: relative;
+    min-height: 1px;
+    border: solid 1px #AAAAAA;
+    color: black;
+    background-color: white;
+    background-image: url(data:image/png;
+    background-image: url(http://articles.supermemo.org/skins/vector/images/search-fade.png?2011-06-24T09:46:40Z)!ie;
+    background-position: top left;
+    background-repeat: repeat-x;
+}
+
+div#simpleSearch label {
+    font-size: 13px;
+    top: 0.25em;
+    direction: ltr;
+}
+
+div#simpleSearch input {
+    color: black;
+    direction: ltr;
+}
+
+div#simpleSearch input:focus {
+    outline: none;
+}
+
+div#simpleSearch input.placeholder {
+    color: #999999;
+}
+
+div#simpleSearch input::-webkit-input-placeholder {
+    color: #999999;
+}
+
+div#simpleSearch input#searchInput {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    margin: 0;
+    padding: 0;
+    padding-left: 0.2em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    outline: none;
+    border: none;
+    font-size: 13px;
+    background-color: transparent;
+    direction: ltr;
+}
+
+div#simpleSearch button#searchButton {
+    position: absolute;
+    width: 10%;
+    right: 0;
+    top: 0;
+    padding: 0;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-right: 0.4em;
+    margin: 0;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+div#simpleSearch button#searchButton img {
+    border: none;
+    margin: 0;
+    margin-top: -3px;
+    padding: 0;
+}
+
+div#simpleSearch button#searchButton > img {
+    margin: 0;
+}
+
+div#mw-panel {
+    position: absolute;
+    top: 160px;
+    padding-top: 1em;
+    width: 10em;
+    left: 0;
+}
+
+div#mw-panel div.portal {
+    padding-bottom: 1.5em;
+    direction: ltr;
+}
+
+div#mw-panel div.portal h5 {
+    font-weight: normal;
+    color: #444444;
+    padding: 0.25em;
+    padding-top: 0;
+    padding-left: 1.75em;
+    cursor: default;
+    border: none;
+    font-size: 0.75em;
+}
+
+div#mw-panel div.portal div.body {
+    margin: 0;
+    padding-top: 0.5em;
+    margin-left: 1.25em;
+    background-image: url(data:image/png;
+    background-image: url(http://articles.supermemo.org/skins/vector/images/portal-break.png?2011-06-24T09:46:40Z)!ie;
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+div#mw-panel div.portal div.body ul {
+    list-style: none;
+    list-style-image: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+div#mw-panel div.portal div.body ul li {
+    line-height: 1.125em;
+    padding: 0;
+    padding-bottom: 0.5em;
+    margin: 0;
+    overflow: hidden;
+    font-size: 0.75em;
+}
+
+div#mw-panel div.portal div.body ul li a {
+    color: #0645ad;
+}
+
+div#mw-panel div.portal div.body ul li a:visited {
+    color: #0b0080;
+}
+
+div#footer {
+    margin-left: 10em;
+    margin-top: 0;
+    padding: 0.75em;
+    background-image: url(data:image/png;
+    background-image: url(http://articles.supermemo.org/skins/vector/images/border.png?2011-06-24T09:46:40Z)!ie;
+    background-position: top left;
+    background-repeat: repeat-x;
+    direction: ltr;
+}
+
+div#footer ul {
+    list-style: none;
+    list-style-image: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+div#footer ul li {
+    margin: 0;
+    padding: 0;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    color: #333333;
+    font-size: 0.7em;
+}
+
+div#footer #footer-icons {
+    float: right;
+}
+
+body.ltr div#footer #footer-places {
+    float: left;
+}
+
+div#footer #footer-info li {
+    line-height: 1.4em;
+}
+
+div#footer #footer-icons li {
+    float: left;
+    margin-left: 0.5em;
+    line-height: 2em;
+}
+
+div#footer #footer-places li {
+    float: left;
+    margin-right: 1em;
+    line-height: 2em;
+}
+
+#p-logo {
+    position: absolute;
+    top: -160px;
+    left: 0;
+    width: 10em;
+    height: 160px;
+}
+
+#p-logo a {
+    display: block;
+    width: 10em;
+    height: 160px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-decoration: none;
+}
+
+#preftoc {
+    width: 100%;
+    float: left;
+    clear: both;
+    margin: 0 !important;
+    padding: 0 !important;
+    background-image: url(data:image/png;
+    background-image: url(http://articles.supermemo.org/skins/vector/images/preferences-break.png?2011-06-24T09:46:40Z)!ie;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+}
+
+#preftoc li {
+    float: left;
+    margin: 0;
+    padding: 0;
+    padding-right: 1px;
+    height: 2.25em;
+    white-space: nowrap;
+    list-style-type: none;
+    list-style-image: none;
+    background-image: url(data:image/png;
+    background-image: url(http://articles.supermemo.org/skins/vector/images/preferences-break.png?2011-06-24T09:46:40Z)!ie;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+
+#preftoc li:first-child {
+    margin-left: 1px;
+}
+
+#preftoc a,#preftoc a:active {
+    display: inline-block;
+    position: relative;
+    color: #0645ad;
+    padding: 0.5em;
+    text-decoration: none;
+    background-image: none;
+    font-size: 0.9em;
+}
+
+#preftoc a:hover,#preftoc a:focus {
+    text-decoration: underline;
+}
+
+#preftoc li.selected a {
+    background-image: url(data:image/png;
+    background-image: url(http://articles.supermemo.org/skins/vector/images/preferences-fade.png?2011-06-24T09:46:40Z)!ie;
+    background-position: bottom;
+    background-repeat: repeat-x;
+    color: #333333;
+    text-decoration: none;
+}
+
+#preferences {
+    float: left;
+    width: 100%;
+    margin: 0;
+    margin-top: -2px;
+    clear: both;
+    border: solid 1px #cccccc;
+    background-color: #f9f9f9;
+    background-image: url(data:image/png;
+    background-image: url(http://articles.supermemo.org/skins/vector/images/preferences-base.png?2011-06-24T09:46:40Z)!ie;
+}
+
+#preferences fieldset.prefsection {
+    border: none;
+    padding: 0;
+    margin: 1em;
+}
+
+#preferences fieldset.prefsection fieldset {
+    border: none;
+    border-top: solid 1px #cccccc;
+}
+
+#preferences legend {
+    color: #666666;
+}
+
+#preferences fieldset.prefsection legend.mainLegend {
+    display: none;
+}
+
+#preferences td {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+#preferences td.htmlform-tip {
+    font-size: x-small;
+    padding: .2em 2em;
+    color: #666666;
+}
+
+#preferences div.mw-prefs-buttons {
+    padding: 1em;
+}
+
+#preferences div.mw-prefs-buttons input {
+    margin-right: 0.25em;
+}
+
+#userlogin,#userloginForm {
+    border: solid 1px #cccccc;
+    padding: 1.2em;
+    margin: .5em;
+    float: left;
+}
+
+#userlogin {
+    min-width: 20em;
+    max-width: 90%;
+    width: 40em;
+}
+
+div#content {
+    line-height: 1.5em;
+}
+
+#bodyContent {
+    font-size: 0.8em;
+}
+
+a {
+    text-decoration: none;
+    color: #0645ad;
+    background: none;
+}
+
+a:visited {
+    color: #0b0080;
+}
+
+a:active {
+    color: #faa700;
+}
+
+a:hover,a:focus {
+    text-decoration: underline;
+}
+
+a.stub {
+    color: #772233;
+}
+
+a.new,#p-personal a.new {
+    color: #ba0000;
+}
+
+a.new:visited,#p-personal a.new:visited {
+    color: #a55858;
+}
+
+img {
+    border: none;
+    vertical-align: middle;
+}
+
+hr {
+    height: 1px;
+    color: #aaa;
+    background-color: #aaa;
+    border: 0;
+    margin: .2em 0 .2em 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: black;
+    background: none;
+    font-weight: normal;
+    margin: 0;
+    overflow: hidden;
+    padding-top: .5em;
+    padding-bottom: .17em;
+    border-bottom: 1px solid #aaa;
+    width: auto;
+}
+
+h1 {
+    font-size: 188%;
+}
+
+h1 .editsection {
+    font-size: 53%;
+}
+
+h2 {
+    font-size: 150%;
+}
+
+h2 .editsection {
+    font-size: 67%;
+}
+
+h3,h4,h5,h6 {
+    border-bottom: none;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 132%;
+}
+
+h3 .editsection {
+    font-size: 76%;
+    font-weight: normal;
+}
+
+h4 {
+    font-size: 116%;
+}
+
+h4 .editsection {
+    font-size: 86%;
+    font-weight: normal;
+}
+
+h5 {
+    font-size: 100%;
+}
+
+h5 .editsection {
+    font-weight: normal;
+}
+
+h6 {
+    font-size: 80%;
+}
+
+h6 .editsection {
+    font-size: 125%;
+    font-weight: normal;
+}
+
+.editsection {
+    float: right;
+}
+
+p {
+    margin: .4em 0 .5em 0;
+    line-height: 1.5em;
+}
+
+p img {
+    margin: 0;
+}
+
+q {
+    font-family: Times,"Times New Roman",serif;
+    font-style: italic;
+}
+
+pre,code,tt,kbd,samp {
+    font-family: monospace,"Courier New";
+}
+
+code {
+    background-color: #f9f9f9;
+}
+
+pre {
+    padding: 1em;
+    border: 1px dashed #2f6fab;
+    color: black;
+    background-color: #f9f9f9;
+    line-height: 1.1em;
+}
+
+ul {
+    line-height: 1.5em;
+    list-style-type: square;
+    margin: .3em 0 0 1.5em;
+    padding: 0;
+    list-style-image: url(data:image/png;
+    list-style-image: url(http://articles.supermemo.org/skins/vector/images/bullet-icon.png?2011-06-24T09:46:40Z)!ie;
+}
+
+ol {
+    line-height: 1.5em;
+    margin: .3em 0 0 3.2em;
+    padding: 0;
+    list-style-image: none;
+}
+
+li {
+    margin-bottom: .1em;
+}
+
+dt {
+    font-weight: bold;
+    margin-bottom: .1em;
+}
+
+dl {
+    margin-top: .2em;
+    margin-bottom: .5em;
+}
+
+dd {
+    line-height: 1.5em;
+    margin-left: 2em;
+    margin-bottom: .1em;
+}
+
+table {
+    font-size: 100%;
+}
+
+fieldset {
+    border: 1px solid #2f6fab;
+    margin: 1em 0 1em 0;
+    padding: 0 1em 1em;
+    line-height: 1.5em;
+}
+
+fieldset.nested {
+    margin: 0 0 0.5em 0;
+    padding: 0 0.5em 0.5em;
+}
+
+legend {
+    padding: .5em;
+    font-size: 95%;
+}
+
+form {
+    border: none;
+    margin: 0;
+}
+
+textarea {
+    width: 100%;
+    padding: .1em;
+}
+
+select {
+    vertical-align: top;
+}
+
+#toc,.toc,.mw-warning {
+    border: 1px solid #aaa;
+    background-color: #f9f9f9;
+    padding: 5px;
+    font-size: 95%;
+}
+
+#toc h2,.toc h2 {
+    display: inline;
+    border: none;
+    padding: 0;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+#toc #toctitle,.toc #toctitle,#toc .toctitle,.toc .toctitle {
+    text-align: center;
+}
+
+#toc ul,.toc ul {
+    list-style-type: none;
+    list-style-image: none;
+    margin-left: 0;
+    padding-left: 0;
+    text-align: left;
+}
+
+#toc ul ul,.toc ul ul {
+    margin: 0 0 0 2em;
+}
+
+#toc .toctoggle,.toc .toctoggle {
+    font-size: 94%;
+}
+
+div.floatright,table.floatright {
+    clear: right;
+    float: right;
+    position: relative;
+    margin: 0 0 .5em .5em;
+    border: 0;
+}
+
+div.floatright p {
+    font-style: italic;
+}
+
+div.floatleft,table.floatleft {
+    float: left;
+    clear: left;
+    position: relative;
+    margin: 0 .5em .5em 0;
+    border: 0;
+}
+
+div.floatleft p {
+    font-style: italic;
+}
+
+div.thumb {
+    margin-bottom: .5em;
+    width: auto;
+    background-color: transparent;
+}
+
+div.thumbinner {
+    border: 1px solid #ccc;
+    padding: 3px !important;
+    background-color: #f9f9f9;
+    font-size: 94%;
+    text-align: center;
+    overflow: hidden;
+}
+
+html .thumbimage {
+    border: 1px solid #ccc;
+}
+
+html .thumbcaption {
+    border: none;
+    text-align: left;
+    line-height: 1.4em;
+    padding: 3px !important;
+    font-size: 94%;
+}
+
+div.magnify {
+    float: right;
+    border: none !important;
+    background: none !important;
+}
+
+div.magnify a,div.magnify img {
+    display: block;
+    border: none !important;
+    background: none !important;
+}
+
+div.tright {
+    clear: right;
+    float: right;
+    margin: .5em 0 1.3em 1.4em;
+}
+
+div.tleft {
+    float: left;
+    clear: left;
+    margin: .5em 1.4em 1.3em 0;
+}
+
+img.thumbborder {
+    border: 1px solid #dddddd;
+}
+
+.hiddenStructure {
+    display: none;
+}
+
+.mw-warning {
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+.usermessage {
+    background-color: #ffce7b;
+    border: 1px solid #ffa500;
+    color: black;
+    font-weight: bold;
+    margin: 2em 0 1em;
+    padding: .5em 1em;
+    vertical-align: middle;
+}
+
+#siteNotice {
+    position: relative;
+    text-align: center;
+    font-size: 0.8em;
+    margin: 0;
+}
+
+#localNotice {
+    margin-bottom: 0.9em;
+}
+
+.catlinks {
+    border: 1px solid #aaa;
+    background-color: #f9f9f9;
+    padding: 5px;
+    margin-top: 1em;
+    clear: both;
+}
+
+#siteSub {
+    display: none;
+}
+
+#jump-to-nav {
+    display: none;
+}
+
+#contentSub,#contentSub2 {
+    font-size: 84%;
+    line-height: 1.2em;
+    margin: 0 0 1.4em 1em;
+    color: #7d7d7d;
+    width: auto;
+}
+
+span.subpages {
+    display: block;
+}
+
+.center {
+    width: 100%;
+    text-align: center;
+}
+
+*.center * {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.small,.small * {
+    font-size: 94%;
+}
+
+table.small {
+    font-size: 100%;
+}
+
+h1,h2 {
+    margin-bottom: .6em;
+}
+
+h3,h4,h5 {
+    margin-bottom: .3em;
+}
+
+#firstHeading {
+    padding-top: 0;
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0.1em;
+    line-height: 1.2em;
+    font-size: 1.6em;
+    padding-bottom: 0;
+}
+
+div#content a.external,div#content a[href ^="gopher://"] {
+    background: url(data:image/png;
+    background: url(http://articles.supermemo.org/skins/vector/images/external-link-ltr-icon.png?2011-06-24T09:46:40Z) center right no-repeat!ie;
+    padding-right: 13px;
+}
+
+div#content a[href ^="https://"],.link-https {
+    background: url(data:image/png;
+    background: url(http://articles.supermemo.org/skins/vector/images/lock-icon.png?2011-06-24T09:46:40Z) center right no-repeat!ie;
+    padding-right: 13px;
+}
+
+div#content a[href ^="mailto:"],.link-mailto {
+    background: url(data:image/png;
+    background: url(http://articles.supermemo.org/skins/vector/images/mail-icon.png?2011-06-24T09:46:40Z) center right no-repeat!ie;
+    padding-right: 13px;
+}
+
+div#content a[href ^="news://"] {
+    background: url(data:image/png;
+    background: url(http://articles.supermemo.org/skins/vector/images/news-icon.png?2011-06-24T09:46:40Z) center right no-repeat!ie;
+    padding-right: 13px;
+}
+
+div#content a[href ^="ftp://"],.link-ftp {
+    background: url(data:image/png;
+    background: url(http://articles.supermemo.org/skins/vector/images/file-icon.png?2011-06-24T09:46:40Z) center right no-repeat!ie;
+    padding-right: 13px;
+}
+
+div#content a[href ^="irc://"],div#content a.extiw[href ^="irc://"],.link-irc {
+    background: url(data:image/png;
+    background: url(http://articles.supermemo.org/skins/vector/images/talk-icon.png?2011-06-24T09:46:40Z) center right no-repeat!ie;
+    padding-right: 13px;
+}
+
+div#content a.external[href $=".ogg"],div#content a.external[href $=".OGG"],div#content a.external[href $=".mid"],div#content a.external[href $=".MID"],div#content a.external[href $=".midi"],div#content a.external[href $=".MIDI"],div#content a.external[href $=".mp3"],div#content a.external[href $=".MP3"],div#content a.external[href $=".wav"],div#content a.external[href $=".WAV"],div#content a.external[href $=".wma"],div#content a.external[href $=".WMA"],.link-audio {
+    background: url(data:image/png;
+    background: url(http://articles.supermemo.org/skins/vector/images/audio-icon.png?2011-06-24T09:46:40Z) center right no-repeat!ie;
+    padding-right: 13px;
+}
+
+div#content a.external[href $=".ogm"],div#content a.external[href $=".OGM"],div#content a.external[href $=".avi"],div#content a.external[href $=".AVI"],div#content a.external[href $=".mpeg"],div#content a.external[href $=".MPEG"],div#content a.external[href $=".mpg"],div#content a.external[href $=".MPG"],.link-video {
+    background: url(data:image/png;
+    background: url(http://articles.supermemo.org/skins/vector/images/video-icon.png?2011-06-24T09:46:40Z) center right no-repeat!ie;
+    padding-right: 13px;
+}
+
+div#content a.external[href $=".pdf"],div#content a.external[href $=".PDF"],div#content a.external[href *=".pdf#"],div#content a.external[href *=".PDF#"],div#content a.external[href *=".pdf?"],div#content a.external[href *=".PDF?"],.link-document {
+    background: url(data:image/png;
+    background: url(http://articles.supermemo.org/skins/vector/images/document-icon.png?2011-06-24T09:46:40Z) center right no-repeat!ie;
+    padding-right: 13px;
+}
+
+div#content a.extiw,div#content a.extiw:active {
+    color: #36b;
+    background: none;
+    padding: 0;
+}
+
+div#content a.external {
+    color: #36b;
+}
+
+div#content .printfooter {
+    display: none;
+}
+
+#pt-userpage,#pt-anonuserpage,#pt-login {
+    background: url(data:image/png;
+    background: url(http://articles.supermemo.org/skins/vector/images/user-icon.png?2011-06-24T09:46:40Z) left top no-repeat!ie;
+    padding-left: 15px !important;
+    text-transform: none;
+}
+
+.toccolours {
+    border: 1px solid #aaa;
+    background-color: #f9f9f9;
+    padding: 5px;
+    font-size: 95%;
+}
+
+#bodyContent {
+    position: relative;
+    width: 100%;
+}
+
+#mw-js-message {
+    font-size: 0.8em;
+}
+
+div#bodyContent {
+    line-height: 1.5em;
+}
+
+#ca-unwatch.icon,#ca-watch.icon {
+    margin-right: 1px;
+}
+
+#ca-unwatch.icon a,#ca-watch.icon a {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    display: block;
+    width: 26px;
+    padding-top: 3.1em;
+    margin-top: 0;
+    margin-top: -0.8em !ie;
+    height: 0;
+    overflow: hidden;
+    background-image: url(data:image/png;
+    background-image: url(http://articles.supermemo.org/skins/vector/images/watch-icons.png?2011-06-24T09:46:40Z)!ie;
+}
+
+#ca-unwatch.icon a {
+    background-position: -43px 60%;
+}
+
+#ca-watch.icon a {
+    background-position: 5px 60%;
+}
+
+#ca-unwatch.icon a:hover,#ca-unwatch.icon a:focus {
+    background-position: -67px 60%;
+}
+
+#ca-watch.icon a:hover,#ca-watch.icon a:focus {
+    background-position: -19px 60%;
+}
+
+#ca-unwatch.icon a.loading,#ca-watch.icon a.loading {
+    background-image: url(data:image/gif;
+    background-image: url(http://articles.supermemo.org/skins/vector/images/watch-icon-loading.gif?2011-06-24T09:46:40Z)!ie;
+    background-position: 5px 60%;
+}
+
+#ca-unwatch.icon a span,#ca-watch.icon a span {
+    display: none;
+}
+
+div.vectorTabs ul {
+    background-image: url(data:image/png;
+    background-image: url(http://articles.supermemo.org/skins/vector/images/tab-break.png?2011-06-24T09:46:40Z)!ie;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+
+p.mw-ipb-conveniencelinks,p.mw-protect-editreasons,p.mw-filedelete-editreasons,p.mw-delete-editreasons {
+    float: right;
+}
+
+.tipsy {
+    font-size: 0.8em;
+}
