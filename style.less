@@ -1,0 +1,236 @@
+/* 
+ * 本代码用于生成 HTML 样式，
+ * 你可以在 VS Code 或者 Atom 中安装 Markdown 预览增强插件使其生效。
+ *
+ * This file is writen for generating HTML format. 
+ * You can install the plugin called Markdown Preview Enhanced 
+ * in VS Code or Atom to make it.
+ *
+ * 插件主页: https://shd101wyy.github.io/markdown-preview-enhanced/#/ 
+ * Plugin Guide: https://shd101wyy.github.io/markdown-preview-enhanced/#/ 
+ */
+
+ @font-face {
+	font-family: 'Noto Sans SC', sans-serif;
+	src: url("https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300");
+  }
+  
+.markdown-preview.markdown-preview {
+font-family: 'Noto Sans SC', sans-serif;
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	pre,
+	code {
+		font-family: 'Noto Sans SC', sans-serif;
+	}
+}
+  
+.figure {
+  color:#C0C0C0;
+  text-align: center;
+}
+
+/*
+ * 以下代码源自: https://supermemo.guru/wiki/Good_sleep,_good_learning,_good_life
+ * The code below is copied from:  https://supermemo.guru/wiki/Good_sleep,_good_learning,_good_life
+ */
+
+.bs-callout {
+	margin: 20px 0;
+	padding: 20px;
+	border: 1px solid #eee;
+	border-left-width: 5px;
+	border-radius: 3px
+}
+
+.bs-callout a {
+	text-decoration: underline
+}
+
+.bs-callout-highlight {
+	border-color: #FFBF00;
+	background-color: #FF0
+}
+
+.bs-callout-personal {
+	border-left-color: #ff2893;
+	background-color: #ffc1e0
+}
+
+.bs-callout-anecdote {
+	border-left-color: #006600;
+	background-color: #99ff99
+}
+
+.bs-callout-supermemo {
+	border-left-color: #8000ff;
+	background-color: #d9d9ff
+}
+
+.bs-callout-metaphor {
+	border-left-color: #9bb79b;
+	background-color: #d1ded1
+}
+
+.bs-callout-archive {
+	border-color: #ccc;
+	background-color: #e5e5e5
+}
+
+.bs-callout-note {
+	position: relative;
+	float: right;
+	display: inline-block;
+	white-space: nowrap
+}
+
+.btn-callout-note {
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 10;
+	display: block;
+	padding: 5px 8px;
+	font-size: 12px;
+	color: #767676;
+	background-color: #fff;
+	border-radius: 0 2px 0 2px
+}
+
+.bs-callout + .bs-callout-note > .btn-callout-note,.faq-q + .bs-callout-note > .btn-callout-note,.excerpt + .bs-callout-note > .btn-callout-note,.motto + .bs-callout-note > .btn-callout-note {
+	top: -13px
+}
+
+.text-center {
+	text-align: center
+}
+
+.motto {
+	margin: 20px 5em;
+	padding: 20px;
+	border-radius: 3px;
+	background-color: #F8FAAD
+}
+
+.inline-highlight {
+	color: #e10071;
+	background-color: #ffffae;
+	font-weight: bold
+}
+
+.excerpt {
+	margin: 20px 0;
+	padding: 0;
+	border-radius: 3px;
+	color: #0A2C5D;
+	background: #E8FFFF url(https://supermemo.guru/images/top.gif) no-repeat top left
+}
+
+.excerpt > p.bd {
+	margin: 0;
+	padding: 1em;
+	background: url(https://supermemo.guru/images/end_quote.gif) no-repeat right bottom
+}
+
+blockquote#locke-quote {
+	margin: 0;
+	padding: 0;
+	width: 270px;
+	line-height: 1em;
+	color: #555;
+	background: #eee url(https://supermemo.guru/images/top.gif) no-repeat top left;
+	font-family: georgia,serif;
+	font-size: 150%;
+	text-align: center;
+	letter-spacing: -1px
+}
+
+#quote {
+	margin: 0 10px 0 0;
+	padding: 20px 20px 10px 20px;
+	background: url(https://supermemo.guru/images/end_quote.gif) no-repeat right bottom
+}
+
+#author {
+	padding: 0 0 10px 0;
+	color: #999;
+	background: url(https://supermemo.guru//images/bottom.gif) no-repeat left bottom;
+	font-size: 60%
+}
+
+.brown {
+	background-color: #FFCE9D
+}
+
+.silver {
+	background-color: silver
+}
+
+.yellow {
+	background-color: yellow
+}
+
+.faq-q {
+	border: 6px solid #6A6AFF;
+	border-top-width: 1px;
+	border-right-width: 3px;
+	border-bottom-width: 2px;
+	margin: 20px 0;
+	padding: 20px 20px 20px 20px;
+	background-color: #c1f0ff;
+	border-radius: 15px
+}
+
+div.more {
+	margin: 3em 0;
+	text-align: center
+}
+
+div.more>span {
+	padding: 1em;
+	border: 5px solid #0000a0;
+	border-radius: 15px;
+	color: #0000a0;
+	background-color: #E8FFE8;
+	font-size: smaller
+}
+
+div.reference {
+	color: #C40000;
+	font-style: italic;
+	font-size: 12pt
+}
+
+div.reference > p {
+	margin-top: 0;
+	margin-bottom: -5px
+}
+
+div.reference > p,div.reference > p.ref-itm > span {
+	background-color: #FFA6FF
+}
+
+div.reference > p.ref-itm {
+	background-color: transparent
+}
+
+p.mail-header {
+	margin: 0;
+	padding: 0
+}
+
+.mail-header {
+	display: inline;
+	background: #FFFF80
+}
+
+.mail-header .mail-subject {
+	color: #FFF;
+	background: #00F;
+	font-weight: bold
+}
