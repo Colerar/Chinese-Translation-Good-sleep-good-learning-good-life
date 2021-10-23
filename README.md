@@ -17,3 +17,6 @@
 # 贡献
 
 如果您觉得有所讹误，可以提交 Issue 或 PR。修改前可以参考一下[这则指南](贡献指南.md)，快速上手。
+
+# 相关项目
+[L-M-Sherlock/supermemo.guru-cn](https://github.com/L-M-Sherlock/supermemo.guru-cn)
