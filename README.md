@@ -8,7 +8,7 @@
 
 # 格式
 
-本翻译以 Markdown 语言写成，并导出成 HTML PDF PNG 等格式。推荐您使用 HTML 格式以获得最佳体验。具体参见：[格式选择](格式选择.md)。
+本翻译以 Markdown 语言写成，并导出成 HTML PDF PNG 等格式。推荐您使用 [HTML 格式](https://colerar.github.io/Chinese-Translation-Good-sleep-good-learning-good-life/)以获得最佳体验。具体参见：[格式选择](格式选择.md)。
 
 # 翻译
 
